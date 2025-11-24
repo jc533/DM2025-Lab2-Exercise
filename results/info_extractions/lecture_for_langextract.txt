@@ -1,29 +1,17 @@
-# LECTURE ANALYSIS: Types of Data Sets
-## Video Segment: 110:58 - 114:58
+# LECTURE ANALYSIS: Duplicate Data
+## Video Segment: 140:33
 
 [SLIDE DESCRIPTION]
-The slide is titled "Data Sets". It lists two main categories: Structured Data Sets and Unstructured Data Sets. Structured data is described as a collection of data organized in certain formats, often in rows and columns, with a clear, predictable structure. Unstructured data is described as more complex and varied, usually derived from human-generated content like text, images, and videos.
+Data set may include duplicate objects, or almost duplicates of one another. Major issue when merging data from heterogeneous sources. Examples: Same person with multiple email addresses.
 
-[TRANSCRIPT - 110:58]
-So the next one we want to talking about the data set. We have different type of data set. You might heard about the term called structured data or unstructured data. Structured data is you know exactly the meaning about the row and column. Unstructured data is they will change. Sometimes you don't really know how to interpret them. Currently that the human generate content such as image, text, video, we consider them as unstructured data.
-
-[TRANSCRIPT - 111:36]
-Luckily with this AI thing and right now text, image, video already can be converting into structured format, but you still need to be able to know once we convert, are they meaningful or not.
+[TRANSCRIPT - 140:33]
+the difficult part is like you to deal with it. So how about duplicate data? The duplicate data, the difficult part is like if you have the heterogeneous sources and then you need to find a way, so for example, the same person with a multiple email addresses. Do you know why actually we do not allow you to use has different email addresses for until cool? Because we want to avoid with that problem. You might have different email address. How do I know that email address really related to one student? We don't. But with your student, your school account, we can double sure. No one actually is like that way. So that is the why until cool. So if you have multiple copy, then you also need to remove the multiple copy.
 
 [SLIDE DESCRIPTION]
-The slide is titled "Characteristics of Data Sets". It lists three characteristics: Dimensionality (Curse of Dimensionality), Sparsity (Only presence counts), and Resolution (Patterns depend on the scale). A speech bubble says "Later" next to Sparsity.
+What's the problem of duplicate data? The presence of duplicate data could lead to misinformation. For example, individuals are often swayed by the "majority."
 
-[TRANSCRIPT - 111:53]
-So we have different kind of characteristic about our data dimension we mentioned before. Sparsity comes from a key word called sparse. Sparse means very few. Like what we say that if you have the record in e-commerce store, like in Amazon. Your data is sparse in that data record. Because they have millions of the record, but then you probably only buy 10 books before. So make your data in the millions then become very sparse. So data are sparse. And sometimes in certain place, we will also talking about the resolution. And that part about sparsity, how to solving them, how to do the resolution, we will talking about later in some of the courses, some of them will be in classification, some of them will be in the text mining.
+[TRANSCRIPT - 141:36]
+So what problem is a duplicate data? There's some other student asking about that. Even though I don't have much time, I want to show you. Maybe just five minutes. Pay attention. Take a look at this crowded waiting room. These people may appear to be waiting for the eye doctor, but they're actually waiting for the first test subject in our hidden camera experience. And here she is, right on time for her 12 o'clock appointment. This is the fake environment. And then some people are the tester. Some people are just actor. She is not an actor. The rest of them are actor. Today we're running an experiment on social conformity and the test starts now. Did you hear that? These people sure did. If you are in that environment, how long can you... But why? And if you were in her shoes, what would you do the next time the tone sounds? While you might think you make your decisions all on your own. All too often, your brain is just following the crowd. It's all around us, every day, an invisible force you're probably not even aware of. It affects what you do, how you think, and who you are. It's called social conformity or peer pressure. And while it might not sound like a good thing, it's actually not so bad. The truth is, your brain craves synchronicity and takes comfort in the ease of it. It's like your brain is a team member, supporting your team at the big game or even marching off to war. We're all programs that you have. It's so easy for you to do. But most of the time, it's something that is very useful. We kept the cameras rolling as more unsuspecting patients arrived. And slowly but surely. What began as a random rule for this woman has now become the social norm for everyone in this waiting room. Here to explain.
 
-[SLIDE DESCRIPTION]
-The slide is titled "Types of Data Sets". It lists three types: Data Matrix, Document Data, and Transaction Data.
-
-[TRANSCRIPT - 112:58]
-We want to talk about different type of the data set. We have the data matrix, document data, transaction data. So data matrix look like this way. If each object has the same fixed set of numeric attributes. Okay, they can become data metric. And then we allow them to do the ratio operation. All the value inside need to become the ratio data. So then right here, they need to be ratio data.
-
-[SLIDE DESCRIPTION]
-The slide is titled "Data Matrix". It states: "If each object has the same fixed set of numeric attributes". A table shows "Book 1" to "Book 5" with columns for "Price", "Sells", "# Reviews", and "# Readers". The values are numeric.
-
-[TRANSCRIPT - 114:48]
-Okay. And the document data is a part that we were talking about later because before 2013, this is before 2013. Okay. And the people actually utilize document data in a vector form. Right here. So they select important keyword in the document. And then after that, for every document, you utilize those important keyword, we got some number, occurrence of the number for that keyword right there. We generate a something called term vector. So each one of them are vector. Why vector? Because in computer science, vector is the way for us to operate. We convert them to vector, so in other word, every number right here are become ratio data. But that is way we try to work in that before 2013. After 2013, how we try to do that? We will talking about that in the text mining part. So maybe three weeks later.
+[TRANSCRIPT - 146:10]
+Okay, so then it's fun, right? You can imagine your data actually just like this variety. Why remove the duplicate data are important? Because right now, in this world, there's so many people want to spread the wrong information to misguide other people. But if you are the people try to produce the information, you need to know which one is a correct one, which is clean one. Remove the duplicate. Otherwise, you will probably will have the same misinformation like the people want to deceive you. Okay, so it's a very important one for you to know and that.
